@@ -18,7 +18,7 @@ class Shoe
   #  if !(BRANDS.include?(self.brand))
 #      BRANDS<<brand
   #  end
-  end
+#  end
 
 
 end
