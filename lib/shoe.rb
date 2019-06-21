@@ -11,12 +11,12 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  BRANDS=[]
+  BRANDS=["Uggs"]
 
   def brand=(brand)
     @brand=brand
   #  if !(BRANDS.include?(self.brand))
-      BRANDS<<"Uggs"
+      BRANDS<<brand
   #  end
   end
 
