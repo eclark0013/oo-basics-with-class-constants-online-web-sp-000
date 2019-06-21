@@ -15,7 +15,7 @@ until GENRES.include?(self.genre)
   GENRES<<self.genre
 end
 
-  
+
 
 end
 
