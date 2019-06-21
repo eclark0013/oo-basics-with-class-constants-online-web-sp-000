@@ -11,6 +11,15 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
+  BRAND=[]
+  def brand=(brand)
+    @brand=brand
+    until BRAND.include?(self.brand)
+      BRAND<<self.brand
+    end
+  end
+
+
 end
 
 #
