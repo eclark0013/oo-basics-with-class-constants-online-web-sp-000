@@ -15,6 +15,9 @@ class Shoe
   end
 
 
+  #  if !(BRANDS.include?(self.brand))
+  #  end
+
 
 end
 
