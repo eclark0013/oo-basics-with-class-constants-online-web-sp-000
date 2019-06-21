@@ -13,10 +13,10 @@ class Shoe
 
   BRANDS=["Uggs"]
 
-  def brand=(brand)
-    @brand=brand
+#  def brand=(brand)
+#    @brand=brand
   #  if !(BRANDS.include?(self.brand))
-      BRANDS<<brand
+#      BRANDS<<brand
   #  end
   end
 
