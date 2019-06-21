@@ -12,10 +12,10 @@ class Shoe
   end
 
   BRANDS=[]
-  
+
   def brand=(brand)
     @brand=brand
-    until BRANDS.include?(self.brand)
+    if !(BRANDS.include?(self.brand))
       BRANDS<<self.brand
     end
   end
