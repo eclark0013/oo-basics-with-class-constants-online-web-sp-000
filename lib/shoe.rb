@@ -11,7 +11,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  BRANDS=["Uggs"]
+  BRANDS=[]
 
   def brand=(brand)
     @brand=brand
