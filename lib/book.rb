@@ -10,6 +10,13 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
+  GENRES = []
+until GENRES.include?(self.genre)
+  GENRES<<self.genre
+end
+
+  
+
 end
 
 #learn spec/01_book_spec.rb
